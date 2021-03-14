@@ -24,7 +24,8 @@
     "react/react-in-jsx-scope": "off", // Prevent importing React on every file
     "react/jsx-filename-extension": [ 2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }], // Allow jsx in .tsx
     "semi": ["error", "always"],
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    "react/jsx-props-no-spreading": 0
   },
   "globals": {
     "React": "writable" // Prevent importing React on every file
